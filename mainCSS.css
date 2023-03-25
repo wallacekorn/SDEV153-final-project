@@ -1,0 +1,420 @@
+header {
+	font-size: 1.2em;
+	text-align: center;
+	background-color: #bbb;
+	border-radius: 10px;
+	color: #002b80;
+	font-family: Garamond, serif;
+	letter-spacing: .2em;
+}
+body {
+	margin: 1% 9% 1% 9%;
+	background-color: #336699; /*#336699 #aa0000*/
+}
+h2 {
+	display: block;
+}
+#navbar {
+	background-color: #9c9c9c;
+	border-radius: 10px;}
+#navbar ul {
+	margin-left: 0px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-left: 0px;}
+#navbar ul li {
+	margin: 5px 5px 5px 0px;
+	border: 3px outset #112233;
+	box-shadow: 5px 2px 3px #333;
+	border-radius: 16px;
+	background-color: #b3cce6;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bolder;
+	list-style-type: none;
+	white-space: nowrap;}
+#navbar a {
+		padding: .1em 1.25em .1em 1.25em;
+	color: #002b80;
+	text-decoration: none;}
+#navbar ul a:visited {color: #002b80;}
+#navbar ul li:hover {background-color: #d9e5f2;}
+#navbar ul a:active {color: #800;}
+#navbar ul li:active {background-color: #417dbe;}
+
+#requestQuote {
+	font-size: 1.8em;
+	text-decoration: none;
+	font-weight: bolder;
+	padding: 8px 12px 8px 12px;
+	border-radius: 25px;
+	background-color: #2e5cb8;
+	border: 4px double #800000;
+	color: #ddd;}
+#requestQuote:visited {color: #ddd;}
+#requestQuote:hover {color: #12126d; background-color:#4775d1;}
+#requestQuote:active {color: #800000;}
+
+#headlineText {
+	font-size: 1.6em;
+	color: #b80000;
+}
+#headlineText2 {
+	font-size: 1.6em;
+	color: #b80000;
+}
+main {
+	background-color: #DEDDED;
+	border-radius: 22px;
+	padding: 8% 10% 8% 10%;
+}
+footer {
+	padding: 0px 10px 0px 10px;
+	margin: 15px 12px 5px 12px;
+	display: flex;
+	flex-direction: column;
+}
+footer ul {
+	background-color: #bbb;
+	border-radius: 10px;
+	padding-right: 26%;
+	padding-left: 26%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display:flex;
+	flex-direction: row;
+	align-self: center;
+}
+footer ul li {
+	padding-right: 20px;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: bold;
+	white-space: nowrap;
+	text-decoration: none;
+}
+footer ul li a {color: #002b80; text-decoration: none;}
+footer ul li a:visited {color: #002b80;}
+footer ul li a:hover {text-shadow: 0px 0px 1px #002b80;}
+footer ul li a:active {color: #002b80;}
+
+#copyright {
+	font-size: .72em;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#ourstoryimage {
+	min-width: 200px;
+	max-width: 200px;
+	box-shadow: 3px 3px 33px 25px #999;
+	border: 1px solid #888;
+	border-radius: 10px;
+	float: left;
+	margin: 3% 8% 5% 3%;
+}
+#ourStoryMain {padding-bottom: 3%;}
+#ourStoryMain p {
+	font-size: 1.18em;
+	text-align: justify;
+	text-justify: auto;}
+#ourStoryMain p span {
+	margin-left: auto;
+	padding-left: 3%; 
+	color: #800; 
+	font-weight: bolder; 
+	letter-spacing:.05em;
+}
+#moreaboutmachining { margin-top: 30px; display: flex; flex-direction: column;}
+#moreaboutmachining p {align-self: center;}
+#moreaboutmachining iframe {
+	align-self: center;
+	width: 100%;
+	height: 300px;
+}
+.addressSections { 
+	font-size: 1.15em;
+	padding-right: 55%;
+}
+.addressSections h4 {
+	padding-bottom: 1px;
+	border-radius: 50px;
+	background-color: #888;
+	font-size: 1.1em;
+	padding: 3px 15px 3px 15px;
+}
+.addressSections p {
+	margin-left: 20px;
+}
+#mapParagraph {
+	height: 80%;
+	width: 50%;
+	float: right;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+#googleMapsFrame {
+	width: 100%;
+	height: 300px;
+	margin-bottom: 20px;
+}
+#seperatorLine {
+	width: 95%;
+	margin-top: 0;
+	border-top: 8px groove #000;
+	margin-bottom: 10%;
+}
+
+#mapParagraph #requestQuote {
+	position: relative;
+	top: -20px;
+	margin-bottom: 1.1em;
+}
+#manualMachinery {
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px double #000;
+	border-radius: 3px;
+}
+#manualMachinery tr td { border: 2px groove #000;}
+#manualMachinery tr {
+	border: 1px solid #000;
+}
+#manualMachinery tr:nth-of-type(odd) {
+	background-color: #bbb;
+}
+#manualMachinery tr:nth-of-type(1) {
+	background-color: #aaa;
+}
+#blockOfEquipmentBlocks {
+	padding: 25px 0px 25px 0px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+#equipmentMain {
+	padding: 40px 10% 50px 10%;
+}
+#servicesMain{
+	padding-bottom: 25px;
+}
+.equipmentBlocks img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 100px;
+	min-height: 100px;
+	max-width: 65%;
+	min-width: 65%;
+	box-shadow: 8px 8px #bbb;
+}
+.equipmentBlocks h4 {
+	margin-left: auto;
+	margin-right: auto;
+}
+.equipmentBlocks p {
+	margin-right: auto;
+}
+.equipmentBlocks {
+	border: 1px ridge #35a;
+	border-radius: 40px;
+	letter-spacing: .02em;
+	padding: 25px 3% 25px 3%;
+	margin-bottom: 15px;
+	box-sizing: border-box; 
+	flex-basis: 33%;
+}
+
+#serviceBlocksBlock {margin: 20px;}
+.serviceBlocks {
+	border-bottom: 5px ridge #833;
+	font-size: 1.1em;
+	display: grid;
+	grid-template-columns: 60% 40%;
+	grid-column-gap: 8px;
+}
+.serviceBlocks p {margin-left:20px; padding-left: 30px; grid-column: 1/2; grid-row:2/2;}
+.serviceBlocks h4 {
+	white-space: nowrap;
+	padding-right: 30px; 
+	padding-left: 15px; 
+	margin-bottom: 12px; 
+	grid-column: 1/2; 
+	grid-row:1/2;
+}
+.serviceBlocks img {
+	float: right;
+	margin: 20px 20px 20px 20px;
+	min-width: 180px;
+	max-width: 180px;
+	min-height: 120px;
+	max-height: 120px;
+	border: 3px solid #333;
+	border-radius: 1px;
+	grid-row: 1/2;
+	grid-column: 2/2;
+	grid-row-start: 1;
+	grid-row-end: span 2;
+	align-self: center;
+}
+#servicesAddon {
+	margin-bottom: 25px;
+	display: flex;
+	justify-content: center;
+	font-size: 1.25em;
+	color: #833;
+	padding-bottom: 10px;}
+#servicesAddon div {display: flex; flex-direction: column; justify-content:start; align-items: center;}
+#servicesAddon h4 { font-size: 1.1em;}
+
+#streetview {
+	display: flex;
+	justify-content: center;
+	padding-right: 2px;
+}
+#streetview img { border-radius: 3px; border: 5px groove #800; max-width: 100%;}
+
+#homeMain {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 60px;
+	padding-bottom: 3%;
+}
+#streetImage2 {display: none;}
+
+#introStatement {margin: 0px 15% 50px 15%; font-size:1.25em;}
+#introStatement span { color: #800; font-weight: bolder; letter-spacing:.05em;}
+
+#missionStatement {
+	display: flex;
+	flex-direction: column;
+	background-color: #bbb; 
+	border-radius: 35px;
+	padding: 15px 20px 20px 20px;
+}
+#missionStatement ul { margin: 0px 0px 50px 0px; font-size: 1.2em;}
+#missionStatement p { font-size: 1.1em; font-weight: bolder;}
+#missionStatement a { align-self: center;}
+
+#quoteForm {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	gap: 20px;
+	border: 1px solid #000;
+	border-radius: 3px;
+	align-self: center;
+	padding: 20px;
+}
+#quoteForm label {
+	font-size: 1.2em;
+}
+#quoteForm input {
+	border-radius: 5px;
+}
+#form1 {
+	display:flex;
+	flex-direction: column;
+}
+#form2 {
+	display: flex;
+	flex-direction: column;
+	max-width: 50%;
+}
+#quoteMain {
+	display: flex;
+	flex-direction: column;
+}
+#quoteMain p, #quoteMain ul {margin: auto;}
+#quoteMain ul {padding-bottom: 30px;}
+
+@media only screen and (max-width: 1027px) {
+	#navbar ul li {font-size: 2.3vw;}
+}
+@media only screen and (max-width: 1024px) {
+	#equipmentMain { padding: 40px 8% 30px 8%;}
+	.equipmentBlocks {	flex-basis: 50%;}
+	footer ul {	padding-right: 20%; padding-left: 20%;}
+}
+@media only screen and (max-width: 768px) {
+	body { margin: 1% 5% 1% 5%;}
+	main { padding: 8% 8% 8% 8%;}
+	footer ul {padding-right: 14%; padding-right: 14%;}
+	footer ul li:last-child {display: none;}
+	footer ul li:first-child {list-style-type: none;}
+	#mapParagraph {float: none; width: 100%;}
+	.addressSections { padding-right: 0px;}
+	#mapParagraph #requestQuote {top:0px;}
+	#servicesMain {padding: 4% 1% 25px 1%;}
+	footer ul {padding-left: 14%; padding-right: 14%;}	
+	.serviceBlocks {grid-template-columns:100%; row-gap: 30px;}
+	.serviceBlocks p {padding-left: 10px; grid-column: 1/1; grid-row:2/3; margin-bottom: 0px;}
+	.serviceBlocks h4 {grid-column: 1/1; grid-row:1/3;}
+	.serviceBlocks img { 
+		margin-top: 0px;
+		padding-top: 0px;
+		float: none;
+		grid-column: 1/1;
+		grid-row-start: 3;
+		grid-row-end: span 1;
+		margin-right: auto;
+		margin-left: auto;}
+	#equipmentMain {padding-top: 10px;}
+	#ourStoryMain {padding-top: 10px;}
+}
+@media only screen and (max-width: 620px) {
+	footer {margin-top: 0%;}
+	footer ul {padding-left: 6%; padding-right: 6%;}
+	#quoteForm { flex-direction: column;}
+	#form2 { max-width: 100%; margin-left: 30px; margin-right: 30px;}
+	#navbar ul li {padding-left: 7px; padding-right: 7px; font-size: 3vw;}
+	#moreaboutmachining iframe { height: 240px;}
+}
+@media only screen and (max-width: 500px) {
+	#ourStoryMain section {display: flex; flex-direction: column;}
+	#ourStoryMain section img {align-self: center;}
+	#form2 { margin-left: 10px; margin-right: 10px;}
+	footer ul {font-size: 1em; padding-left: 4%; padding-right: 4%;}
+	#streetImage1 {display: none;}
+	#streetImage2 {display: block;}
+	#ourStoryMain h4 {padding-top: 0px; padding-bottom: 0px;}
+}
+@media only screen and (max-width: 480px) {
+	.equipmentBlocks { flex-basis: 90%;}
+	footer ul li { font-size: 12px; letter-spacing: .05em;}
+}
+@media only screen and (max-width: 400px) {
+	header {font-size: 5vw;}
+	#requestQuote {font-size: 6vw;}
+	footer {margin: 0px; padding: 0px;}
+	footer ul { flex-direction: column; min-width: 100%; box-sizing: border-box; text-align: center; padding-bottom: 0px;}
+	footer ul li {list-style-type: none; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-bottom: 1px inset #007;}
+	footer ul li:nth-last-child(2) {border: none;}
+	footer ul li a {display: block; width: 100%; padding-top: 15px; padding-bottom:15px;}
+	#manualMachinery { width:80%;}
+	#navbar ul {flex-direction: column;}
+	#navbar ul li {margin-top: 3px; margin-bottom: 3px;}
+	#navbar ul li { font-size: 1em;}
+	#moreaboutmachining iframe { height: 160px;}
+}
+@media only screen and (max-width: 335px) {
+	main {font-size: .82em;}
+}
+@media only screen and (max-width: 320px) {
+	#copyright {font-size: 3vw;}
+	body {margin-right: 0px; margin-left: 0px;}
+	main h2 {padding-left: 12px;}
+	main {background-color: rgba(222, 221, 237, 0.45);}
+	#navbar ul li {margin-top: 1px; margin-bottom: 1px;}
+	#ourstoryimage { min-width:125px; max-width:125px;}
+}
+@media only screen and (max-width: 240px) { 
+	#serviceBlocksBlock { margin: 0;}
+}
